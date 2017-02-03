@@ -1,0 +1,19 @@
+{
+  "name": "projectrad",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "SYMFONY_ENV": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+
+  ]
+}
