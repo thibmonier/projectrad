@@ -35,7 +35,8 @@
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
-        "symfony/phpunit-bridge": "^3.0"
+        "symfony/phpunit-bridge": "^3.0",
+        "heroku/heroku-buildpack-php": "*"
     },
     "scripts": {
         "symfony-scripts": [
@@ -53,6 +54,7 @@
             "@symfony-scripts"
         ],
         "compile": [
+            "bower install",
             "php bin/console avanzu:admin:fetch-vendor",
             "rm web/app_dev.php",
             "php bin/console assetic:dump"
