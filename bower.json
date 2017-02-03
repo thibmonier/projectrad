@@ -1,0 +1,21 @@
+{
+  "name": "athens-night-backend",
+  "homepage": "http://pouet",
+  "authors": [
+    "Thibaut Monier <thibaut.monier@gmail.com>"
+  ],
+  "description": "projetrad",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+
+  }
+}

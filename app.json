@@ -1,6 +1,15 @@
 {
   "name": "projectrad",
   "description": "",
+  "keywords": [
+    "heroku",
+    "buildpack",
+    "PHP",
+    "Composer",
+    "Node.js",
+    "npm",
+    "Bower"
+  ],
   "scripts": {
   },
   "env": {
