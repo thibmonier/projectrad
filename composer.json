@@ -44,7 +44,8 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
+            "Braincrafted\\Bundle\\BootstrapBundle\\Composer\\ScriptHandler::install"
         ],
         "post-install-cmd": [
             "@symfony-scripts"
@@ -54,8 +55,6 @@
         ],
         "compile": [
             "bower install",
-            "php bin/console assets:install",
-            "php bin/console avanzu:admin:fetch-vendor",
             "rm web/app_dev.php",
             "php bin/console assetic:dump"
         ]
