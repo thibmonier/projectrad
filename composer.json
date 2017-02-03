@@ -54,6 +54,7 @@
         ],
         "compile": [
             "bower install",
+            "php bin/console assets:install",
             "php bin/console avanzu:admin:fetch-vendor",
             "rm web/app_dev.php",
             "php bin/console assetic:dump"
