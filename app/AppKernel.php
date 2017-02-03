@@ -15,6 +15,18 @@ class AppKernel extends Kernel
             new Symfony\Bundle\SwiftmailerBundle\SwiftmailerBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
+
+            new Knp\Rad\ResourceResolver\Bundle\ResourceResolverBundle(),
+            new Knp\Rad\DoctrineEvent\Bundle\DoctrineEventBundle(),
+            new Knp\Rad\FixturesLoad\Bundle\FixturesLoadBundle(),
+            new Knp\Rad\AutoRegistration\Bundle\AutoRegistrationBundle($this), // !! Do not forget to inject the kernel !!
+            new Knp\Rad\User\Bundle\UserBundle(),
+            new Knp\Rad\DomainEvent\Bundle\DomainEventBundle(),
+            new Knp\Rad\UrlGeneration\Bundle\UrlGenerationBundle(),
+
+            new Avanzu\AdminThemeBundle\AvanzuAdminThemeBundle(),
+            new Symfony\Bundle\AsseticBundle\AsseticBundle(),
+
             new AppBundle\AppBundle(),
         ];
 

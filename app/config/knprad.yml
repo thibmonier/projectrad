@@ -1,0 +1,10 @@
+knp_rad_auto_registration:
+    enable:
+        doctrine: ~
+        constraint_validator: ~
+        form_type_extension: ~
+        security_voter: ~
+        twig_extension: ~
+        
+#        doctrine_mongodb: ~
+#        doctrine_couchdb: ~
