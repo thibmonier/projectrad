@@ -55,7 +55,8 @@
         ],
         "compile": [
             "bower install",
-            "rm web/app_dev.php"
+            "rm web/app_dev.php",
+            "chmod 755 -R web/*"
         ]
     },
     "config": {
