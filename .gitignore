@@ -15,3 +15,5 @@
 /vendor/
 /web/bundles/
 composer.phar
+
+bin/symfony_requirements
