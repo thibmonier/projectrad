@@ -27,6 +27,8 @@ class AppKernel extends Kernel
             new Avanzu\AdminThemeBundle\AvanzuAdminThemeBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
 
+            new Ob\HighchartsBundle\ObHighchartsBundle(),
+
             new AppBundle\AppBundle(),
         ];
 
