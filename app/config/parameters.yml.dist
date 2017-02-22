@@ -6,7 +6,7 @@ parameters:
     database_port:     5432
     database_name:     d99bnrrtameg7c
     database_user:     iotoszcfyjmjpy
-    database_password: ~
+    database_password: 5cf0dc8e1172b5ce1dbf829b3bbc638cf4a7bbb03c06a07ac3e86309cdd4e28e
     # You should uncomment this if you want use pdo_sqlite
     # database_path: "%kernel.root_dir%/data.db3"
 
