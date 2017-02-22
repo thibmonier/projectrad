@@ -73,7 +73,7 @@ swiftmailer:
     spool:     { type: memory }
 
 avanzu_admin_theme:
-    use_assetic: false
+#    use_assetic: false
 
 
 #sonata_block:
