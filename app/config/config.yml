@@ -72,8 +72,8 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
-#avanzu_admin_theme:
-#    use_assetic: false
+avanzu_admin_theme:
+    use_assetic: false
 
 
 #sonata_block:
