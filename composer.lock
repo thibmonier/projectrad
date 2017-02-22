@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c74cfe76ea295d2b9227fc195361e6d",
+    "content-hash": "a36aedc51a5bf23a88c8307166fadecc",
     "packages": [
         {
             "name": "avanzu/admin-theme-bundle",
@@ -2102,16 +2102,16 @@
         },
         {
             "name": "sonata-project/admin-bundle",
-            "version": "3.13.0",
+            "version": "3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sonata-project/SonataAdminBundle.git",
-                "reference": "021646de4c11c170ae6205bc5740818b50da3591"
+                "reference": "d1c82ba95e8f283f46be9e1ab88f98555e4ad542"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/021646de4c11c170ae6205bc5740818b50da3591",
-                "reference": "021646de4c11c170ae6205bc5740818b50da3591",
+                "url": "https://api.github.com/repos/sonata-project/SonataAdminBundle/zipball/d1c82ba95e8f283f46be9e1ab88f98555e4ad542",
+                "reference": "d1c82ba95e8f283f46be9e1ab88f98555e4ad542",
                 "shasum": ""
             },
             "require": {
@@ -2195,7 +2195,7 @@
                 "bootstrap",
                 "sonata"
             ],
-            "time": "2017-02-03T09:12:44+00:00"
+            "time": "2017-02-21T15:18:44+00:00"
         },
         {
             "name": "sonata-project/block-bundle",
@@ -3508,16 +3508,16 @@
     "packages-dev": [
         {
             "name": "heroku/heroku-buildpack-php",
-            "version": "v119",
+            "version": "v120",
             "source": {
                 "type": "git",
                 "url": "https://github.com/heroku/heroku-buildpack-php.git",
-                "reference": "26ebb69005d467d45f75797c1594f60818ba3fce"
+                "reference": "e0499a7fdffd56f46534a037a6c48d65cef4e645"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/26ebb69005d467d45f75797c1594f60818ba3fce",
-                "reference": "26ebb69005d467d45f75797c1594f60818ba3fce",
+                "url": "https://api.github.com/repos/heroku/heroku-buildpack-php/zipball/e0499a7fdffd56f46534a037a6c48d65cef4e645",
+                "reference": "e0499a7fdffd56f46534a037a6c48d65cef4e645",
                 "shasum": ""
             },
             "bin": [
@@ -3548,7 +3548,7 @@
                 "nginx",
                 "php"
             ],
-            "time": "2017-01-21T00:39:13+00:00"
+            "time": "2017-02-20T15:05:49+00:00"
         },
         {
             "name": "sensio/generator-bundle",
@@ -3664,7 +3664,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "sonata-project/admin-bundle": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
