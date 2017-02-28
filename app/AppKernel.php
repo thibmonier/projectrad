@@ -16,13 +16,13 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
 
-            new Knp\Rad\ResourceResolver\Bundle\ResourceResolverBundle(),
-            new Knp\Rad\DoctrineEvent\Bundle\DoctrineEventBundle(),
-            new Knp\Rad\FixturesLoad\Bundle\FixturesLoadBundle(),
-            new Knp\Rad\AutoRegistration\Bundle\AutoRegistrationBundle($this), // !! Do not forget to inject the kernel !!
-            new Knp\Rad\User\Bundle\UserBundle(),
-            new Knp\Rad\DomainEvent\Bundle\DomainEventBundle(),
-            new Knp\Rad\UrlGeneration\Bundle\UrlGenerationBundle(),
+            //new Knp\Rad\ResourceResolver\Bundle\ResourceResolverBundle(),
+            //new Knp\Rad\DoctrineEvent\Bundle\DoctrineEventBundle(),
+            //new Knp\Rad\FixturesLoad\Bundle\FixturesLoadBundle(),
+            //new Knp\Rad\AutoRegistration\Bundle\AutoRegistrationBundle($this), // !! Do not forget to inject the kernel !!
+            //new Knp\Rad\User\Bundle\UserBundle(),
+            //new Knp\Rad\DomainEvent\Bundle\DomainEventBundle(),
+            //new Knp\Rad\UrlGeneration\Bundle\UrlGenerationBundle(),
 
             new Avanzu\AdminThemeBundle\AvanzuAdminThemeBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
@@ -30,13 +30,13 @@ class AppKernel extends Kernel
             new Ob\HighchartsBundle\ObHighchartsBundle(),
 
           // These are the other bundles the SonataAdminBundle relies on
-            new Sonata\CoreBundle\SonataCoreBundle(),
-            new Sonata\BlockBundle\SonataBlockBundle(),
-            new Knp\Bundle\MenuBundle\KnpMenuBundle(),
+            //new Sonata\CoreBundle\SonataCoreBundle(),
+            //new Sonata\BlockBundle\SonataBlockBundle(),
+            //new Knp\Bundle\MenuBundle\KnpMenuBundle(),
 
             // And finally, the storage and SonataAdminBundle
-            new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
-            new Sonata\AdminBundle\SonataAdminBundle(),
+            //new Sonata\DoctrineORMAdminBundle\SonataDoctrineORMAdminBundle(),
+            //new Sonata\AdminBundle\SonataAdminBundle(),
 
             new AppBundle\AppBundle(),
         ];
