@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/avanzu/AdminThemeBundle.git",
-                "reference": "84673fbb4bc7329864631fedce137ccf64eb321a"
+                "reference": "c0ff9dd38626778e3a7ac757a837677cb21e0e0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/avanzu/AdminThemeBundle/zipball/84673fbb4bc7329864631fedce137ccf64eb321a",
-                "reference": "84673fbb4bc7329864631fedce137ccf64eb321a",
+                "url": "https://api.github.com/repos/avanzu/AdminThemeBundle/zipball/c0ff9dd38626778e3a7ac757a837677cb21e0e0c",
+                "reference": "c0ff9dd38626778e3a7ac757a837677cb21e0e0c",
                 "shasum": ""
             },
             "require": {
@@ -49,7 +49,7 @@
                 }
             ],
             "description": "Admin Theme based on the AdminLTE Template for easy integration into symfony",
-            "time": "2016-11-15 13:35:50"
+            "time": "2017-03-09 16:59:18"
         },
         {
             "name": "doctrine/annotations",
@@ -1877,16 +1877,16 @@
         },
         {
             "name": "sensiolabs/security-checker",
-            "version": "v4.0.1",
+            "version": "v4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/security-checker.git",
-                "reference": "f2ce0035fc512287978510ca1740cd111d60f89f"
+                "reference": "56bded66985e22f6eac2cf86735fd21c625bff2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/f2ce0035fc512287978510ca1740cd111d60f89f",
-                "reference": "f2ce0035fc512287978510ca1740cd111d60f89f",
+                "url": "https://api.github.com/repos/sensiolabs/security-checker/zipball/56bded66985e22f6eac2cf86735fd21c625bff2f",
+                "reference": "56bded66985e22f6eac2cf86735fd21c625bff2f",
                 "shasum": ""
             },
             "require": {
@@ -1917,7 +1917,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2017-02-18T17:53:25+00:00"
+            "time": "2017-03-09T17:33:20+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
