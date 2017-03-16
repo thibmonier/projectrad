@@ -34,7 +34,8 @@
         "knplabs/rad-url-generation": "^2.0",
         "avanzu/admin-theme-bundle": "dev-master",
         "symfony/assetic-bundle": "^2.8",
-        "ob/highcharts-bundle": "^1.5"
+        "ob/highcharts-bundle": "^1.5",
+        "sonata-project/admin-bundle": "^3.13"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
