@@ -35,7 +35,8 @@
         "avanzu/admin-theme-bundle": "dev-master",
         "symfony/assetic-bundle": "^2.8",
         "ob/highcharts-bundle": "^1.5",
-        "sonata-project/admin-bundle": "^3.13"        
+        "sonata-project/admin-bundle": "^3.13",
+        "squizlabs/php_codesniffer": "*"        
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

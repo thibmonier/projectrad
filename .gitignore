@@ -15,5 +15,6 @@
 /vendor/
 /web/bundles/
 composer.phar
+composer.bat
 
 bin/symfony_requirements
