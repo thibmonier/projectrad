@@ -1,0 +1,7 @@
+fos_elastica:
+    clients:
+        default:
+            host: %fos_elastica.host%
+            port: %fos_elastica.port%
+        indexes:
+            search: ~

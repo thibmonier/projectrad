@@ -28,6 +28,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
 
             new Ob\HighchartsBundle\ObHighchartsBundle(),
+            new FOS\ElasticaBundle\FOSElasticaBundle(),
 
           // These are the other bundles the SonataAdminBundle relies on
             //new Sonata\CoreBundle\SonataCoreBundle(),
