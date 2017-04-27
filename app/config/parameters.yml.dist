@@ -18,3 +18,6 @@ parameters:
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
     admin_skin: skin-blue
+
+    fos_elastica.host: https://7qyq60un:my0hsnx21qw3gql2@banyan-1985489.us-east-1.bonsaisearch.net
+    fos_elastica.port: 9200
