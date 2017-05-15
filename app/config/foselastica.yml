@@ -4,4 +4,4 @@ fos_elastica:
             host: %fos_elastica.host%
             port: %fos_elastica.port%
         indexes:
-            search: ~
+#            search: ~
