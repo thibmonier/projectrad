@@ -46,7 +46,7 @@ twig:
 # Doctrine Configuration
 doctrine:
     dbal:
-        driver:   pdo_mysql
+        driver:   "%database_driver%"pdo_pgsql
         host:     "%database_host%"
         port:     "%database_port%"
         dbname:   "%database_name%"
@@ -75,6 +75,7 @@ swiftmailer:
 
 avanzu_admin_theme:
     use_assetic: false
+    bower_bin: /usr/bin/bower # that's the default value
 
 #sonata_block:
 #    default_contexts: [cms]
