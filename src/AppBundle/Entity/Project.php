@@ -35,6 +35,12 @@ class Project
      */
     private $longname;
 
+    /**
+     * @ORM\ManyToOne(targetEntity="Client", inversedBy="projects")
+     * @ORM\JoinColumn(name="client_id", referencedColumnName="id")
+     */
+    private $client;
+
 
     /**
      * Get id
