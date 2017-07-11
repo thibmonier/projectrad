@@ -75,7 +75,8 @@ swiftmailer:
 
 avanzu_admin_theme:
     use_assetic: false
-    bower_bin: /usr/bin/bower # that's the default value
+    bower_bin: bower # that's the default value
+    
     
 #sonata_block:
 #    default_contexts: [cms]
