@@ -16,5 +16,7 @@
 /web/bundles/
 composer.phar
 composer.bat
+node_modules
+npm-shrinkwrap.json
 
 bin/symfony_requirements
