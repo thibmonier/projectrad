@@ -29,6 +29,7 @@ class AppKernel extends Kernel
 
             new Ob\HighchartsBundle\ObHighchartsBundle(),
             new FOS\ElasticaBundle\FOSElasticaBundle(),
+            new FOS\UserBundle\FOSUserBundle(),
 
           // These are the other bundles the SonataAdminBundle relies on
             //new Sonata\CoreBundle\SonataCoreBundle(),

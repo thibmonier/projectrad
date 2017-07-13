@@ -1,0 +1,11 @@
+{% extends 'AvanzuAdminThemeBundle:layout:login-layout.html.twig' %}
+
+{% block stylesheets %}
+    {{parent()}}
+    <link rel="stylesheet" href="{{ asset('css/override.css') }}" />
+{% endblock %}
+
+
+{% block page_content %}
+    {{ include('Security/login_content.html.twig') }}
+{% endblock %}

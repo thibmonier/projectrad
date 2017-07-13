@@ -1,4 +1,122 @@
 {% extends 'AvanzuAdminThemeBundle:layout:base-layout.html.twig' %}
+
+{% block avanzu_logo %}
+                <a href="#" class="logo">
+                    <!-- Add the class icon to your logo image or logo icon to add the margining -->
+                    <b>OAB</b>TMA
+                </a>
+            {% endblock %}
+
+{% block page_title %}Dashboard{% endblock %}
+{% block page_subtitle %}Projet xXx{% endblock %}
+
 {% block page_content %}
- 
+<section class="content">
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-aqua">
+            <div class="inner">
+              <h3>4</h3>
+
+              <p>Nouvelles demandes Jira</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-bag"></i>
+            </div>
+            <a href="#" class="small-box-footer" title="Accéder à JIRA">Accéder à JIRA <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-green">
+            <div class="inner">
+              <h3>35<sup style="font-size: 20px">%</sup></h3>
+
+              <p>de demandes corrigées</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-stats-bars"></i>
+            </div>
+            <a href="#" class="small-box-footer">Accéder à JIRA <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-yellow">
+            <div class="inner">
+              <h3>6</h3>
+
+              <p>mois restants</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-person-add"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+          <!-- small box -->
+          <div class="small-box bg-red">
+            <div class="inner">
+              <h3>60</h3>
+
+              <p>Tickets de TMA restants</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-pie-graph"></i>
+            </div>
+            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+          </div>
+        </div>
+        <!-- ./col -->
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+            <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">Statistiques de la semaine dernière</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+              <table class="table table-striped">
+                <tbody>
+                <tr>
+                  <td>1.</td>
+                  <td>Consommé</td>
+                  <td>
+                    <div class="progress progress-xs">
+                      <div class="progress-bar progress-bar-danger" style="width: 25%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-red">5 tickets</span></td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>Temps de traitement moyen</td>
+                  <td>
+                    
+                  </td>
+                  <td><span class="badge bg-yellow">5h</span></td>
+                </tr>
+                <tr>
+                  <td>3.</td>
+                  <td>Temps de prise en compte</td>
+                  <td>
+                    
+                  </td>
+                  <td><span class="badge bg-light-blue">16h</span></td>
+                </tr>
+                
+              </tbody></table>
+            </div>
+            <!-- /.box-body -->
+          </div>
+        </div>
+      </div>
+</section>
 {% endblock %}
