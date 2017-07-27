@@ -30,7 +30,8 @@
         "ob/highcharts-bundle": "^1.5",
         "sonata-project/admin-bundle": "^3.13",
         "squizlabs/php_codesniffer": "*",
-        "friendsofsymfony/elastica-bundle": "^4.0"        
+        "friendsofsymfony/elastica-bundle": "^4.0",
+        "friendsofsymfony/user-bundle": "*"        
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",
