@@ -30,7 +30,7 @@
         <tbody>
         {% for client in clients %}
             <tr>
-                <td><a href="{{ path('client_show', { 'id': client.id }) }}">{{ project.id }}</a></td>
+                <td><a href="{{ path('client_show', { 'id': client.id }) }}">{{ client.id }}</a></td>
                 <td>{{ client.name }}</td>
                 <td>
                     <div class="btn-group">

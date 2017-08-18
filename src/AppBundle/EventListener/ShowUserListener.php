@@ -3,6 +3,7 @@ namespace Avanzu\AdminThemeBundle\EventListener;
 
 use Avanzu\AdminThemeBundle\Event\ShowUserEvent;
 use AppBundle\Model\UserModel;
+use FOS\UserBundle\FOSUserBundle;
 
 class ShowUserListener {
 
@@ -10,6 +11,7 @@ class ShowUserListener {
 
         $user = new UserModel();
         $user->setAvatar('')->setIsOnline(true)->setMemberSince(new \DateTime())->setUsername('Demo User');
+
 
         $event->setUser($user);
     }
